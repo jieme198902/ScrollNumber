@@ -60,7 +60,7 @@ public class MultiScrollNumber extends LinearLayout {
         resetView();
 
         int number = val;
-        while (number > 0) {
+        while (number >= 0) {
             int i = number % 10;
             mTargetNumbers.add(i);
             number /= 10;
